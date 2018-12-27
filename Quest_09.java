@@ -3,7 +3,10 @@ package pg_124;
 import java.util.Scanner;
 
 public class Quest_09 {
-
+    /*
+    Faça um programa que receba um número e que calcule e mostre a tabuada desses
+    números.
+    */
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         int num;

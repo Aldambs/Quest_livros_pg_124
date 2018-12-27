@@ -3,7 +3,18 @@ package pg_124;
 import java.util.Scanner;
 
 public class Quest_08 {
-
+    /*
+    Faça um programa que receba idade de 15 pessoas, calcule e mostre:
+    A quantidade de pessoas em cada faixa etária;
+    A percentagem de pessoas na primeira e na última faixaetária, com relação ao 
+    total de pessoas.
+    Faixa Etária         Idade
+    1ª            Até 15 anos
+    2ª            De 16 a 30 anos
+    3ª            De 31 a 45 anos
+    4ª            De 46 a 60 anos
+    5ª            Acima de 60 anos
+    */
     public static void main(String[] args) {
        Scanner ler = new Scanner(System.in);
         int id, cont15 = 0, cont16 = 0, cont31 = 0, cont46 = 0, cont61 = 0;

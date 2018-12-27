@@ -3,6 +3,10 @@ package pg_124;
 import java.util.Scanner;
 
 public class Quest_07 {
+    /*
+    Faça um programa que receba a idade de dez pessoas e que calcule e mostre a 
+    quantidade de pessoas com idade maior ou igual a 18 anos.
+    */
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);

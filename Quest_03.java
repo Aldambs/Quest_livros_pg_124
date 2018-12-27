@@ -1,7 +1,10 @@
 package pg_124;
 
 public class Quest_03 {
-
+    /*
+    Faça um programa que calcule e mostre o produto dos números primos entre 92 
+    e 1.478.
+    */
     public static void main(String[] args) {
           int n, i, k, prod = 1, cont = 0;
           
