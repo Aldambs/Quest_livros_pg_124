@@ -3,7 +3,11 @@ package pg_124;
 import java.util.Scanner;
 
 public class Quest_13 {
-
+    /*
+    Faça um algoritmo que receba a idade e o peso de 7 pessoas, calcule e mostre:
+    A quantidade de pessoas com mais de 90 quilos;
+    A média das idades das 7 pessoas
+    */
     public static void main(String[] args) {
        Scanner ler = new Scanner(System.in);
        int idade, qtd = 0, qtdID = 0;

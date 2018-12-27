@@ -3,7 +3,15 @@ package pg_124;
 import java.util.Scanner;
 
 public class Quest_11 {
-
+    /*
+    Uma loja utiliza o código V para transação à vista e p para transação a prazo 
+    faça um programa que receba o código e o valor de quinze transações calcule e mostre: 
+.   o valor total das compras à vista; 
+.o  valor total das compras à prazo; 
+.o  valor total das compras efetuadas; 
+.o  valor da primeira prestação das compras a prazo juntas, sabendo se que serão 
+    pagas em três vezes. 
+    */
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         int t = 0;
