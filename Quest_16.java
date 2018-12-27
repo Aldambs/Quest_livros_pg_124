@@ -3,7 +3,14 @@ package pg_124;
 import java.util.Scanner;
 
 public class Quest_16 {
-
+    /*
+   Faça um programa que receba dez idades, pesos e alturas, calcule e mostre:
+    a. A média das idades das dez pessoas; 
+    b. A quantidade de pessoas com peso superior a 90 kg e altura inferior a 1,50 
+    metro; 
+    c. porcentagem de pessoas com idade entre 10 e 30 anos entre pessoas que medem 
+    mais de 1,90.
+    */
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         int idade, qtdP = 0, qtdA = 0, cont = 0;
@@ -28,7 +35,7 @@ public class Quest_16 {
 
         }
         med_id = soma / 10;
-        System.out.println(" A media das das idade e: " + med_id);
+        System.out.println(" A media das idade é: " + med_id);
         System.out.println(" A quantidade de pessoas acima de 90 quilos é: " + qtdP);
         por = cont /100;
         System.out.println(" A porcentagem de pessoas com idade 10 e 30 anos: " + por);
