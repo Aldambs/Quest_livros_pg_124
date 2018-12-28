@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Quest_36 {
 
     /**
-     * @param args the command line arguments
+     * Faça um programa que receba a idade e a altura de varias pessoas e que calcule e mostre a 
+     média das alturas das pessoas com mais de 50 anos Para encerrar a entrada de dados digite a 
+     idade menor ou igual a zero.
      */
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
