@@ -38,7 +38,7 @@ public class Quest_19 {
             System.out.println("Valor a pagar: " + precoF);
         }
         if (opcaoPG.equalsIgnoreCase("p")) {
-            System.out.println("Informae a qtd de parcelas: "
+            System.out.println("Informe a qtd de parcelas: "
                     + "6, 12, 18, 24, 30, 36, 42, 48, 54, 60");
             parcela = ler.nextInt();
 
@@ -54,11 +54,40 @@ public class Quest_19 {
                 precoF = valorCar + (valorCar * 0.09);
                 valorP = precoF / 18;
             }
+            if (parcela == 24) {
+                precoF = valorCar + (valorCar * 0.12);
+                valorP = precoF / 24;
+            }
+            if (parcela == 30) {
+                precoF = valorCar + (valorCar * 0.15);
+                valorP = precoF / 30;
+            }
+            if (parcela == 36) {
+                precoF = valorCar + (valorCar * 0.18);
+                valorP = precoF / 36;
+            }
+            if (parcela == 42) {
+                precoF = valorCar + (valorCar * 0.21);
+                valorP = precoF / 42;
+            }
+            if (parcela == 48) {
+                precoF = valorCar + (valorCar * 0.24);
+                valorP = precoF / 48;
+            }
+            if (parcela == 54) {
+                precoF = valorCar + (valorCar * 0.27);
+                valorP = precoF / 54;
+            }
+            if (parcela == 60) {
+                precoF = valorCar + (valorCar * 0.30);
+                valorP = precoF / 60;
+            }
 
-            System.out.println("| Preço Final | Qtd Parcela | Valor da Pacelar |");
-            System.out.print("   " + precoF + "        ");
-            System.out.print("   " + parcela + "       ");
-            System.out.printf("     " + valorP + "     ");
+            System.out.print("| Preço Final | Qtd Parcela | Valor da Pacelar |\n");
+            System.out.printf("   %.2f ",precoF, "       ");
+            System.out.print("         "  +parcela+ "    ");
+            System.out.printf("     %.2f ",valorP,  "    ");
+            System.out.println("    ");
 
         }
 
