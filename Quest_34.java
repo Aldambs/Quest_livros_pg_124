@@ -1,12 +1,14 @@
 package pg_124;
 
+import java.util.Scanner;
+
 public class Quest_34 {
     /*
-     Em uma eleição presidencial existem quatro candidatos. Os votos são informados 
+    Em uma eleição presidencial existem quatro candidatos. Os votos são informados 
     por meio de código. Os códigos utilizados são: 
                 1,2,3           Votos dos respectivos candidatos
-                  5                   Voto nulo
-                  6                   Voto em branco
+                  5             Voto nulo
+                  6             Voto em branco
     Faça um programa que calcule e mostre:
     a) o total de votos para cada candidato;
     b) o total de votos nulos;
@@ -16,7 +18,8 @@ public class Quest_34 {
     Para finalizar o conjunto de votos, tem-se o valor zero.
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner ler = new Scanner(System.in);
+       
     }
     
 }
