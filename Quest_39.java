@@ -12,6 +12,25 @@ public class Quest_39 {
     */
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-    }
-    
+        int num, maior = 0, menor = 0;
+        System.out.println("Digite o número: ");
+        num = ler.nextInt();
+        while (num != 0) {
+            System.out.println("Digite o número: ");
+            num = ler.nextInt();
+
+            if (num < 0) {
+                System.out.println("Valor negativo, digita novamente: ");   
+            }else{
+                if (num > maior) {
+                    maior = num;
+                }
+                if (num < maior) {
+                    menor = num;
+                }
+            }
+        }
+        System.out.println("Maior = " + maior);
+        System.out.println("Menor = " + menor);
+    } 
 }
